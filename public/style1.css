@@ -1,0 +1,101 @@
+
+
+#name{background-color: #484848; font-family: Arial; font-size: 40px; text-align: center; color:white; height: 11%;
+}
+.search{ display: flex;
+    height: 200px;
+    float: right;
+    margin: 20px 0;
+
+
+
+}
+body{background-color: #d5d5d5
+}
+
+input::-webkit-input-placeholder {
+    color: #c06278;
+    font-style: italic;
+    background: #d5d5d5;
+}
+
+.description {
+    display: inline-block;
+    width: 26%;
+
+    vertical-align: top;
+    min-height: 300px;
+
+
+}
+.author {
+    font-weight: bold;
+    font-style: italic;
+}
+.description > div.first_d {
+    min-height: 150px;
+    padding: 10px;
+}
+.name_art {
+    font-weight: bold;
+    background: rgba(255, 207, 0, 0.43); /* Цвет фона */
+    text-overflow: ellipsis;}
+    .first_d{font-weight: bold;
+
+        text-overflow: ellipsis;/* Запрещаем перенос строк */
+        overflow: hidden; /* Обрезаем все, что не помещается в область */
+
+        padding: 5px;}
+
+
+.table.table-striped.table-bordered {
+    display: none;
+
+}
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;}
+/*input:-moz-placeholder*/
+ /*{*/
+    /*color: #c08f99;*/
+    /*font-style: italic;*/
+    /*background: #2e7fef;*/
+
+/*input:-ms-input-placeholder {*/
+    /*color: #B6C0A5;*/
+    /*font-style: italic;*/
+    /*background: #E0EFCA;*/
+
+/*.footer {*/
+    /*padding: 10px 40px 10px 40px;*/
+    /*background: #393939;*/
+    /*font-family: "Cuprum";*/
+    /*color: #f2fffc;*/
+    /*font-size: 13px;*/
+    /*text-align: left;*/
+/*}*/
+.footer{background-color: #484848; font-family: Arial; font-size: 15px; text-align: center;
+}
+#last{ color: #f2fffc}
+
+
+/*{width:100%; height:50px; background-color: #484848;*/
+
+    /*position: fixed;*/
+
+    /*width: 100%;*/
+    /*height: 2%;*/
+    /*padding: 2%;*/
+    /*border-width: 2px;*/
+    /*border-color: #a9ffd3;*/
+    /*border-style: solid;*/
+
+    /*background-color: #e8f0f8;*/
+    /*margin: 10px 0 30px;*/
+/*}*/
